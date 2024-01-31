@@ -1,0 +1,50 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 60122,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2024-01-31T04:50:01.296Z",
+  "crawlerFinishedAt": "2024-01-31T04:54:53.723Z",
+  "statsPersistedAt": "2024-01-31T04:54:53.723Z",
+  "crawlerRuntimeMillis": 293201,
+  "crawlerLastStartTimestamp": 1706676600522,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 60122,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 60122,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {},
+  "errors": {
+    "/home/cocodernero/Development/project_file/scraper/node_modules/@crawlee/core/crawlers/crawler_utils.js:13:11": {
+      "missing error code": {
+        "Error": {
+          "Navigation timed out after 60 seconds.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "/home/cocodernero/Development/project_file/scraper/node_modules/@crawlee/core/crawlers/crawler_utils.js:13:11": {
+      "missing error code": {
+        "Error": {
+          "Navigation timed out after 60 seconds.": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}
